@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hi Roxana 💗</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- floating hearts -->
+    <div id="hearts-layer" aria-hidden="true"></div>
+
+    <!-- confetti canvas -->
+    <canvas id="confetti" aria-hidden="true"></canvas>
+
+    <main class="wrap">
+      <div class="card">
+        <div class="topbar">
+          <div id="lives" class="lives" aria-label="lives"></div>
+          <button id="musicBtn" class="music hidden" type="button" title="Toggle music">
+            ♫
+          </button>
+        </div>
+
+        <div class="content">
+          <img
+            id="gifLeft"
+            class="gif"
+            src="assets/cinnamoroll.gif"
+            alt="Cinnamoroll dancing"
+          />
+
+          <section class="center">
+            <h1 id="title" class="title"></h1>
+            <p id="subtitle" class="subtitle"></p>
+
+            <div id="inputRow" class="input-row hidden">
+              <input
+                id="textAnswer"
+                class="text-answer"
+                type="text"
+                inputmode="numeric"
+                placeholder="type here..."
+                autocomplete="off"
+              />
+              <button id="submitText" class="btn primary" type="button">Submit</button>
+            </div>
+
+            <div id="buttons" class="buttons"></div>
+          </section>
+
+          <img
+            id="gifRight"
+            class="gif"
+            src="assets/cinnamoroll.gif"
+            alt="Cinnamoroll dancing"
+          />
+        </div>
+
+        <p class="tiny">made by your future husband♡</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
