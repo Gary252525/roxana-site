@@ -277,10 +277,10 @@ function renderGameInvite() {
   makeRunaway(noBtn);
 
   // small extra: make "no" instantly run away on render
-  setTimeout(() => {
-    const ev = new Event("mouseenter");
-    noBtn.dispatchEvent(ev);
-  }, 250);
+  //setTimeout(() => {
+    //const ev = new Event("mouseenter");
+    //noBtn.dispatchEvent(ev);
+ // }, 250);
 }
 
 function startQuestions() {
@@ -363,5 +363,6 @@ function renderValentine() {
 // Start
 
 renderIntro();
+
 
 
