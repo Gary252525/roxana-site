@@ -25,7 +25,7 @@ async function initMusic() {
   if (music) return;
   music = new Audio("assets/glaive.mp3"); // put your mp3 here
   music.loop = true;
-  music.volume = 0.10;
+  music.volume = 0.03;
   musicBtn.classList.remove("hidden");
 }
 async function toggleMusic() {
@@ -361,4 +361,5 @@ function renderValentine() {
 }
 
 // Start
+
 renderIntro();
